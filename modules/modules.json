@@ -1,0 +1,1153 @@
+{
+  "strings/ops/ops": {
+    "info": {
+      "go_module": "github.com/acme-kuetix/acme-std-strings",
+      "namespace": "strings/ops",
+      "class": "ops",
+      "label": "Ops Module",
+      "description": "Handles ops operations for strings/ops service"
+    },
+    "methods": [
+      {
+        "value": "AssertEquals",
+        "label": "AssertEquals(value interface{}, other interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertEquals(value, other, code, message) r",
+        "types": "AssertEquals(interface{}, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertEquals",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "other",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertExactLength",
+        "label": "AssertExactLength(value string, n interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertExactLength(value, n, code, message) r",
+        "types": "AssertExactLength(string, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertExactLength",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "n",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertHasPrefix",
+        "label": "AssertHasPrefix(value string, prefixes string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertHasPrefix(value, prefixes, code, message) r",
+        "types": "AssertHasPrefix(string, string, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertHasPrefix",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "prefixes",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertMinLength",
+        "label": "AssertMinLength(value string, min interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertMinLength(value, min, code, message) r",
+        "types": "AssertMinLength(string, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertMinLength",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "min",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertNotEquals",
+        "label": "AssertNotEquals(value interface{}, other interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertNotEquals(value, other, code, message) r",
+        "types": "AssertNotEquals(interface{}, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertNotEquals",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "other",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertOneOf",
+        "label": "AssertOneOf(value string, list string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertOneOf(value, list, code, message) r",
+        "types": "AssertOneOf(string, string, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertOneOf",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "list",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertRequired",
+        "label": "AssertRequired(value string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertRequired(value, code, message) r",
+        "types": "AssertRequired(string, string, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertRequired",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertRequiredLower",
+        "label": "AssertRequiredLower(value string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertRequiredLower(value, code, message) r",
+        "types": "AssertRequiredLower(string, string, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertRequiredLower",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertRequiredUpper",
+        "label": "AssertRequiredUpper(value string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertRequiredUpper(value, code, message) r",
+        "types": "AssertRequiredUpper(string, string, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertRequiredUpper",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Contains",
+        "label": "Contains(value string, substring string) (r domain.FlowStepResult)",
+        "names": "Contains(value, substring) r",
+        "types": "Contains(string, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "Contains",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "substring"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Equals",
+        "label": "Equals(value string, other string) (r domain.FlowStepResult)",
+        "names": "Equals(value, other) r",
+        "types": "Equals(string, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "Equals",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "other"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "JoinNonEmpty",
+        "label": "JoinNonEmpty(separator string, values []interface{}) (r domain.FlowStepResult)",
+        "names": "JoinNonEmpty(separator, values) r",
+        "types": "JoinNonEmpty(string, []interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "JoinNonEmpty",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "[]interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "separator",
+            "values"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Trim",
+        "label": "Trim(value string) (r domain.FlowStepResult)",
+        "names": "Trim(value) r",
+        "types": "Trim(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "Trim",
+          "receiver_type": "*opsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "ToUpper",
+        "label": "ToUpper(value string) (r domain.FlowStepResult)",
+        "names": "ToUpper(value) r",
+        "types": "ToUpper(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "ToUpper",
+          "receiver_type": "*opsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "ToLower",
+        "label": "ToLower(value string) (r domain.FlowStepResult)",
+        "names": "ToLower(value) r",
+        "types": "ToLower(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "ToLower",
+          "receiver_type": "*opsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "SplitNonEmpty",
+        "label": "SplitNonEmpty(value string, separator string) (r domain.FlowStepResult)",
+        "names": "SplitNonEmpty(value, separator) r",
+        "types": "SplitNonEmpty(string, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "SplitNonEmpty",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "separator"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertRequired",
+        "label": "AssertRequired(value string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertRequired(value, code, message) r",
+        "types": "AssertRequired(string, string, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertRequired",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertRequiredUpper",
+        "label": "AssertRequiredUpper(value string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertRequiredUpper(value, code, message) r",
+        "types": "AssertRequiredUpper(string, string, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertRequiredUpper",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertRequiredLower",
+        "label": "AssertRequiredLower(value string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertRequiredLower(value, code, message) r",
+        "types": "AssertRequiredLower(string, string, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertRequiredLower",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertMinLength",
+        "label": "AssertMinLength(value string, min interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertMinLength(value, min, code, message) r",
+        "types": "AssertMinLength(string, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertMinLength",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "min",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertExactLength",
+        "label": "AssertExactLength(value string, n interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertExactLength(value, n, code, message) r",
+        "types": "AssertExactLength(string, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertExactLength",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "n",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertHasPrefix",
+        "label": "AssertHasPrefix(value string, prefixes string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertHasPrefix(value, prefixes, code, message) r",
+        "types": "AssertHasPrefix(string, string, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertHasPrefix",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "prefixes",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertOneOf",
+        "label": "AssertOneOf(value string, list string, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertOneOf(value, list, code, message) r",
+        "types": "AssertOneOf(string, string, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertOneOf",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "list",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Contains",
+        "label": "Contains(value string, substring string) (r domain.FlowStepResult)",
+        "names": "Contains(value, substring) r",
+        "types": "Contains(string, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "Contains",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "substring"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Equals",
+        "label": "Equals(value string, other string) (r domain.FlowStepResult)",
+        "names": "Equals(value, other) r",
+        "types": "Equals(string, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "Equals",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "other"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertNotEquals",
+        "label": "AssertNotEquals(value interface{}, other interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertNotEquals(value, other, code, message) r",
+        "types": "AssertNotEquals(interface{}, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertNotEquals",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "other",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "AssertEquals",
+        "label": "AssertEquals(value interface{}, other interface{}, code string, message string) (r domain.FlowStepResult)",
+        "names": "AssertEquals(value, other, code, message) r",
+        "types": "AssertEquals(interface{}, interface{}, string, string) domain.FlowStepResult",
+        "description": "Function with 4 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "AssertEquals",
+          "receiver_type": "*opsTransitions",
+          "num_in": 4,
+          "num_out": 1,
+          "arg_types": [
+            "interface{}",
+            "interface{}",
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "other",
+            "code",
+            "message"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Switch",
+        "label": "Switch(value string, mapping map[string]interface{}, defaultVal string) (r domain.FlowStepResult)",
+        "names": "Switch(value, mapping, defaultVal) r",
+        "types": "Switch(string, map[string]interface{}, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "Switch",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "map[string]interface{}",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "mapping",
+            "defaultVal"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "JoinNonEmpty",
+        "label": "JoinNonEmpty(separator string, values []interface{}) (r domain.FlowStepResult)",
+        "names": "JoinNonEmpty(separator, values) r",
+        "types": "JoinNonEmpty(string, []interface{}) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "JoinNonEmpty",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "[]interface{}"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "separator",
+            "values"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "SplitNonEmpty",
+        "label": "SplitNonEmpty(value string, separator string) (r domain.FlowStepResult)",
+        "names": "SplitNonEmpty(value, separator) r",
+        "types": "SplitNonEmpty(string, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "SplitNonEmpty",
+          "receiver_type": "*opsTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "separator"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Switch",
+        "label": "Switch(value string, mapping map[string]interface{}, defaultVal string) (r domain.FlowStepResult)",
+        "names": "Switch(value, mapping, defaultVal) r",
+        "types": "Switch(string, map[string]interface{}, string) domain.FlowStepResult",
+        "description": "Function with 3 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "Switch",
+          "receiver_type": "*opsTransitions",
+          "num_in": 3,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "map[string]interface{}",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "mapping",
+            "defaultVal"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "ToLower",
+        "label": "ToLower(value string) (r domain.FlowStepResult)",
+        "names": "ToLower(value) r",
+        "types": "ToLower(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "ToLower",
+          "receiver_type": "*opsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "ToUpper",
+        "label": "ToUpper(value string) (r domain.FlowStepResult)",
+        "names": "ToUpper(value) r",
+        "types": "ToUpper(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "ToUpper",
+          "receiver_type": "*opsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Trim",
+        "label": "Trim(value string) (r domain.FlowStepResult)",
+        "names": "Trim(value) r",
+        "types": "Trim(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-strings",
+          "file_path": "modules/strings/ops/transitions/ops.go",
+          "module_path": "modules",
+          "namespace": "strings/ops",
+          "class": "ops",
+          "name": "Trim",
+          "receiver_type": "*opsTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      }
+    ]
+  }
+}
